@@ -11,7 +11,7 @@ const db = mysql.createConnection ({
     database:"ecomDB"
 })
 
-// app.use(express.json())
+
 app.use(cors())
 
 
